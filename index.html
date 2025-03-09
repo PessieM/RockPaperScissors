@@ -1,0 +1,35 @@
+<!--index.html
+    html for rock, paper, scissors game
+    Pessie Mittelman
+    3/10/25 -->
+
+<DOCTYPE! html>
+<html>
+<head>
+    <title>Rock, Paper, Scissors Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <h2>Rock, Paper, Scissors Game</h2>
+    <p><b>How To Play: </b> Choose rock, paper or scissors and click the button to see if you win!</p>
+        <ul>
+            <li>Rock wins scissors</li>
+            <li>Scissors wins paper</li>
+            <li>Paper wins rock</li>
+        </ul>
+    </p>
+    <div class="choices">
+        <button id="rockButton"><img src="rock.png" alt="rock" id="rock" height=115px></button>
+        <button id="paperButton"><img src="paper.png" alt="paper" id="paper" height=200px></button>
+        <button id="scissorsButton"><img src="scissors.png" alt="scissors" id="scissors" height=225px></button>
+    </div>
+    <br>
+    <div id="userInput"></div>
+    <div id="displayComputerChoice"></div>
+    <div id="result"></div>
+    <br>
+    <button id="reset" onclick="reset()">Play Again!</button>
+</body>
+</html>
